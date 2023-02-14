@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center ">
         <Title
-          title=""
+          title="Projects Field"
           des="My Projects"
         />
       </div>

@@ -18,7 +18,9 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Phuc Nguyen</span>
+           I'm <span className="text-designColor capitalize">Phuc Nguyen</span>
+                <p className="text-white capitalize text-right mr-28">Or<span className="semibold text-4xl
+                 text-orange-800">{`<Kent Nguyen>`}</span></p>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -53,7 +55,7 @@ const LeftBanner = () => {
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+            GOOD SKILLS AT
           </h2>
           <div className=" gap-4 grid grid-cols-3">
             <span className="bannerIcon hover:text-cyan-500">
@@ -76,7 +78,7 @@ const LeftBanner = () => {
       </div>
         <a href="Resume.pdf"download="Resume">
         <button class="relative group overflow-hidden pl-6 h-14 flex space-x-6 items-center bg-gradient-to-r from-purple-500 to-pink-500 rounded-full">
-          <span class="relative uppercase text-base text-black font-bold">Resume</span>
+          <span class="relative uppercase text-base text-black font-bold">Résumé</span>
           <div aria-hidden="true" class="w-14  transition duration-300 -translate-y-7 group-hover:translate-y-7">
               <div class="h-14 flex">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 m-auto fill-white" viewBox="0 0 20 20" fill="currentColor">

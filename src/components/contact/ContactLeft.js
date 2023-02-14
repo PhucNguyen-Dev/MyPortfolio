@@ -25,11 +25,11 @@ const ContactLeft = () => {
         </p>
         <div className="flex flex-col gap-4">
         <h2 className="text-base  font-titleFont mb-4 underline decoration-solid text-white 
-        underline-offset-4 decoration-indigo-500 capitalize hover:uppercase"> Download my resume here</h2>
+        underline-offset-4 decoration-indigo-500 capitalize hover:uppercase cursor-pointer"> Download my resume here</h2>
         <div className="flex gap-4">
         <a href="Resume.pdf"download="Resume">
         <button class="relative group overflow-hidden pl-6 h-14 flex space-x-6 items-center bg-gradient-to-r from-purple-500 to-pink-500 rounded-full">
-          <span class="relative uppercase text-base text-black font-bold">Resume</span>
+          <span class="relative uppercase text-base text-black font-bold">Résumé</span>
           <div aria-hidden="true" class="w-14  transition duration-300 -translate-y-7 group-hover:translate-y-7">
               <div class="h-14 flex">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 m-auto fill-white" viewBox="0 0 20 20" fill="currentColor">

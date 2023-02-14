@@ -23,7 +23,7 @@ const TopButton = () => {
   };
   window.addEventListener('scroll', toggleVisible);
   return (
-    <button className=" flex w-full sticky place-content-end ml-28 bottom-24 h-12 z-10 cursor-pointer text-4xl text-red-400 scroll-smooth ">
+    <button className=" flex w-full sticky place-content-end ml-0 bottom-0 h-12 z-10 cursor-pointer text-4xl text-red-400 scroll-smooth flex-col lgl:flex-row lgl:gap-20">
         <FaArrowCircleUp onClick={scrollToTop} 
      style={{display: visible ? 'inline' : 'none'}} />
     </button>
