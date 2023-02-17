@@ -26,6 +26,9 @@ module.exports = {
       boxShadow: {
         shadowOne: "8px 8px 16px #292524, -8px -8px 16px #1e293b",
       },
+      variants: {
+        width: ["responsive", "hover", "focus"]
+      }
     },
   },
   plugins: [],

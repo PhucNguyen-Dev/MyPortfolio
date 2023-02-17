@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import TopButton from "./components/scrolltop/TopButton";
+
 //import Testimonial from "./components/testimonial/Testimonial";
 
 function App() {
