@@ -73,7 +73,7 @@ const LeftBanner = () => {
             <span className="bannerIcon hover:text-green-400 rotate-90 mt-4">
               HTML, CSS
             </span>
-            <span className="bannerIcon hover:text-red-400 -rotate-12 ">
+            <span className="bannerIcon hover:text-red-400 -rotate-12 -ml-5">
               Java
             </span>
           </div>
